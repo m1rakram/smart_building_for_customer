@@ -1,0 +1,3 @@
+Smart Building Application for Floor Users
+This application has control of light, ventilation, elevator, curtains of one floor. For example user is able to change states of any part in curtain floor from this app without complex interface. Because end user can make mistake in usage of application for whole building by controlling wrong floor. Therefore, this app provide more user friendly interface for user
+ In Backend, we have Adafruit.io webserver in which we subscribe to a channel which connected to the Controller of smart building. Those channels provide data exchange between controller and app.
