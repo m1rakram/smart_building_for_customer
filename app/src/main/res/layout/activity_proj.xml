@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.admin.widesmart.ProjActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+
+        android:layout_marginTop="3dp">
+
+        <LinearLayout
+            android:background="@drawable/shapebutton2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="90"
+            android:layout_weight="30"
+
+            android:layout_marginHorizontal="200dp"
+            android:layout_marginTop="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:weightSum="90"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rgb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="#ff0000"
+                    android:layout_marginTop="20dp">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rgb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="10dp"
+                    android:background="#00ff00"
+                    android:layout_weight="30">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rgb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="#0000ff"
+                    android:layout_weight="30">
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:weightSum="90"
+                android:layout_marginHorizontal="50dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rgb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="#ff00ff"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="0dp">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rgb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="10dp"
+                    android:background="#ffff00"
+                    android:layout_weight="30">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rgb6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00ffff"
+                    android:layout_weight="30">
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:weightSum="90"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="80dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rgb7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="#ff0088"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="0dp">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rgb8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ff8800"
+                    android:layout_marginVertical="10dp"
+                    android:layout_weight="30">
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rgb9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:background="#000000"
+                    android:orientation="horizontal"
+                    android:layout_weight="30">
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="70"
+            android:orientation="horizontal"
+            android:weightSum="50">
+
+
+            <LinearLayout
+                android:id="@+id/cf2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:layout_margin="40dp"
+                android:background="@drawable/shapebutton2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Send color"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
